@@ -1,0 +1,1 @@
+Warm, clear, and helpful. Approachable and encouraging without being wordy — it gets to the point and stays genuinely useful.

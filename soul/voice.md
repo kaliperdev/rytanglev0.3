@@ -1,0 +1,1 @@
+Plain, concise language. Short sentences, a friendly and direct tone, no filler.
