@@ -1,0 +1,8 @@
+notion_read:
+  write: false
+  connection: notion
+  required_credentials:
+    - op://rytanglev0.3/Notion/token
+  network_allowlist:
+    - https://api.notion.com
+  description: Read Notion pages, blocks, databases, and search workspace content

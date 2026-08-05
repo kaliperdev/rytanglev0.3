@@ -1,0 +1,16 @@
+id: notion
+base_url: https://api.notion.com
+network_allowlist:
+  - https://api.notion.com
+credential_help:
+  url: https://www.notion.so/my-integrations
+  steps: 1. Go to notion.so/my-integrations and click 'New integration'. 2. Give
+    it a name, select your workspace, and set capabilities to 'Read content'. 3.
+    Copy the 'Internal Integration Token' (starts with ntn_ or secret_). 4.
+    Share each page/database with the integration via the page's Share menu →
+    search for your integration name.
+credential_refs:
+  token: op://rytanglev0.3/Notion/token
+auth:
+  scheme: bearer
+  token_key: token
