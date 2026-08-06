@@ -1,0 +1,16 @@
+id: confluence
+base_url: https://kaliper.atlassian.net
+network_allowlist:
+  - kaliper.atlassian.net
+credential_help:
+  url: https://id.atlassian.com/manage-profile/security/api-tokens
+  steps: 1. Go to https://id.atlassian.com/manage-profile/security/api-tokens. 2.
+    Click 'Create API token', give it a label (e.g. 'Devasur'), and copy the
+    token. 3. Use your Atlassian account email as the username.
+credential_refs:
+  api_token: op://devasur/confluence/api_token
+  username: op://devasur/confluence/username
+auth:
+  scheme: basic
+  token_key: api_token
+  username_key: username

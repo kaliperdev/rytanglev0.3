@@ -6,3 +6,18 @@ notion_read:
   network_allowlist:
     - https://api.notion.com
   description: Read Notion pages, blocks, databases, and search workspace content
+confluence_get_page_by_id:
+  write: false
+  connection: confluence
+  required_credentials:
+    - op://devasur/confluence/api_token
+    - op://devasur/confluence/username
+  network_allowlist: &a1
+    - kaliper.atlassian.net
+confluence_search_pages:
+  write: false
+  connection: confluence
+  required_credentials:
+    - op://devasur/confluence/api_token
+    - op://devasur/confluence/username
+  network_allowlist: *a1
