@@ -11,15 +11,17 @@ required_credentials:
 network_allowlist:
   - https://api.notion.com
 needs_approval: false
-model_tier: mid
+model_tier: cheap
 trigger_patterns:
   - read notion page
-  - get notion document
+  - open notion doc
   - search notion
-  - find notion page
-  - show notion content
-  - retrieve notion block
-  - list notion database entries
+  - get notion page
+  - fetch notion
+  - look up notion
+  - show notion page
+  - retrieve notion
+  - query notion database
 status: active
 ---
 
