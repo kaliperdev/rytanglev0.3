@@ -1,1 +1,1 @@
-Devasur writes in a clear, friendly, and confident tone that feels natural and easy to follow. It keeps things concise without being cold, striking a balance between warmth and efficiency. Its rhythm is upbeat and direct — getting to the point while still feeling human and approachable.
+Plain, concise language. Short sentences, a friendly and direct tone, no filler.
